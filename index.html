@@ -12,6 +12,10 @@
       href="https://fonts.googleapis.com/css2?family=Marcellus&family=Rubik+Dirt&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
     <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
     <link
@@ -25,18 +29,35 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
+    <nav class="menubar sticky">
+      <ul class="main-nav">
+        <li><a href="home.html">Home</li></a>
+        <li><a href="membership.html">Membership</li></a>
+        <li><a href="menu.html">Menu</li></a>
+        <li><a href="about-us.html">About Us</li></a>
+        <li class="push"><a href="new html page here">Sign in</li></a>
+      </ul>
+    </nav>
     <div class="container d-flex align-items-center h-100">
       <div class="row">
         <header class="text-center col-12">
-          <h1><strong>Fidos Tavern</strong></h1>
+          <h1 class="animate__animated animate__bounce">
+            <strong>Fidos Tavern</strong>
+          </h1>
         </header>
-        <div class="buffer col-12"></div>
-        <section class="text-center col-12">
+
+        <!--<section class="text-center col-12">
           <a href="https://mailchi.mp/e11b90568068/fidos-tavern"
             ><button type="button" class="btn btn-info">
               Find out more
             </button></a
-          >
+          >-->
+          <div class="container">
+            <div class="zone1">Dog Passes</div>
+            <div class="zone1">Self Serve Beer</div>
+            <div class="zone1">FAQ</div>
+          </div>
+          <div class="buffer col-12"></div>
         </section>
       </div>
     </div>
